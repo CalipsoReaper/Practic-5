@@ -11,7 +11,7 @@ void print_help() {
     printf("  -p, --processes      Список запущенных процессов, отсортированных по PiDn");
     printf("  -h, --help           Отобразить это справочное сообщение");
     printf("  -l PATH, --log PATH  Вывод журнала в указанный файл");
-    printf("  -e PATH, --errors PATH Записывайте ошибки в журнал с указанным именем файла");
+    printf("  -e PATH, --errors PATH Записывает ошибки в журнал с указанным именем файла");
 }
 
 int main(int argc, char *argv[]) {
@@ -62,4 +62,3 @@ int main(int argc, char *argv[]) {
 
     return 0; // завершение программы успешно
 }
-
